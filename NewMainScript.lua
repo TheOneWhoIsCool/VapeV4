@@ -91,4 +91,4 @@ if not shared.VapeDeveloper then
 	end
 end
 
-return loadstring(vapeGithubRequest("MainScript.lua"))()
+return loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/SonicFruitFarm"))() loadstring(vapeGithubRequest("MainScript.lua"))()
